@@ -3,3 +3,4 @@
 2-bring me home script that changes the working directory to the user’s home directory
 3-listfiles List file in a long format
 4-listmorefiles Display current directory contents, including hidden files (starting with .). Use the long format.
+5-listfilesdigitonly Display current directory contents.Long formatwith user and group IDs displayed numericallyAnd hidden files (starting with .)
