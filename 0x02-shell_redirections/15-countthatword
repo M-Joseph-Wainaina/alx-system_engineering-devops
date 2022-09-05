@@ -1,0 +1,2 @@
+#!/bin/bash
+greg -c -i "bin" /etc/passwd
