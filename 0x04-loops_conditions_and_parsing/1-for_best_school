@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
+#shellscript to print Best School ten times
 
-var=10
 for ((var=0; var <= 9; var++));do
 	echo 'Best School'
 	done
