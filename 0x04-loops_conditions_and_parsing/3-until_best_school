@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#print Best School ten times using the untill loop
+
+a=0
+
+until [ $a -eq 10 ]
+do
+	echo 'Best School'
+	((a=a+1))
+done
