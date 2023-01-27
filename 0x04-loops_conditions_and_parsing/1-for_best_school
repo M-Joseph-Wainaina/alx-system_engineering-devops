@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+var=10
+for ((var=0; var <= 9; var++));do
+	echo 'Best School'
+	done
