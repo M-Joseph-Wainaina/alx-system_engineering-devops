@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#if 9 say Hi
+
+a=1
+
+while ((a <= 10))
+do
+	if [ $a -eq 9 ] 
+	then
+		printf 'Best School\nHi\n'
+	else
+		printf 'Best School\n'
+	fi
+	((a=a+1))
+done	
