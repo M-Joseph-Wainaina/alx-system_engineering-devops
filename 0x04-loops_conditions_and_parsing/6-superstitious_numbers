@@ -5,9 +5,9 @@ a=1
 while [ $a -le 20 ]
 do
 	case $a in
-		4) printf "$a\nbad luck from china\n";;
-		9) printf "$a\nbad luck from japan\n";;
-		17) printf "$a\nbad luck from italy\n";;
+		4) printf "$a\nbad luck from China\n";;
+		9) printf "$a\nbad luck from Japan\n";;
+		17) printf "$a\nbad luck from Italy\n";;
 		*) printf "$a\n";;
 	esac
 	((a=a+1))

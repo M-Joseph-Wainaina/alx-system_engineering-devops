@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#script that gives info about school file
+
+file="./school"
+
+echo "$file"
