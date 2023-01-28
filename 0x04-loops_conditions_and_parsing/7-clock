@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#print the clock
+
+hour=0
+min=0
+
+while [ $hour -le 12 ]
+do
+	printf "Hour: $hour\n"
+	min=0
+	while [ $min -lt 60 ]
+	do
+		printf "$min\n"
+		((min=min+1))
+	done
+	((hour=hour+1))
+done
