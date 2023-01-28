@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# iterate to ten and print bad luck for the forth iteration,good luck for the eigth else Best School
+
+a=1
+
+while [ $a -le 10 ]
+do
+	if [ $a -eq 4 ]
+	then
+		printf "bad luck\n"
+	elif [ $a -eq 8 ]
+	then
+		printf "good luck\n"
+	else
+		printf "Best School\n"
+	fi
+
+	((a=a+1))
+done
