@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#print content in a list
+
+files=$("ls")
+for file in $files;
+do
+	echo "$file" | cut -d'-' -f2
+done	
