@@ -25,5 +25,5 @@ echo "Holberton School" > /var/www/html/index.html
 echo "Ceci n'est pas une page" > /var/www/html/404.html
 sed -i "s|server_name\ _;|$new_conf|" /etc/nginx/sites-available/default
 sed -i "0,/}/ s|}|$error_404|" /etc/nginx/sites-available/default
-sed -i '/http {/a add_header X-Served-By \$hostname;' /etc/nginx/nginx.conf
+sed -i "/http {/a add_header X-Served-By \$hostname;" /etc/nginx/nginx.conf
 service nginx restart
