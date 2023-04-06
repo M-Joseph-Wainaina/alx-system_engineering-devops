@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Enable Nginx on port 80 by configuring the server
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+# Send a signal to the Nginx master process to gracefully restart and read the new configuration
+pkill -1 nginx
