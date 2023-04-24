@@ -22,7 +22,7 @@ if __name__ == '__main__':
     todos = requests.get(todosUrl).json()
 
     numberOfTasks = len(todos)
-    
+
     # get the number of completed tasks
     completedTasks = 0
     for todo in todos:
@@ -32,8 +32,8 @@ if __name__ == '__main__':
 
     # printing the output
 
-    str = f"Employee {userName} is done with tasks({completedTasks}/{numberOfTasks}):"
-    print(str)
+    str = "Employee {name} is done with tasks({comp}/{all}):"
+    print(str.format(name=userName, comp=completedTasks, all=incompleteTasks))
     for todo in todos:
         if todo.get('completed'):
             print("\t " + todo.get('title'))
